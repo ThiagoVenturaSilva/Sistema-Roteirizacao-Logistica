@@ -31,9 +31,9 @@ body {
   width: 80px;
 }
 
-system-name {
+.system-name {
   font-size: 42px;
-  color: #1f2937;
+  color: #1d4ed8;
   font-weight: 700;
 }
 
@@ -54,13 +54,13 @@ system-name {
   align-items: center;
   gap: 8px;
   margin-left: 8px;
-  color: #000000;
+  color: #1d4ed8;
 }
 
 .user-item:first-child {
   color: #374151;
 
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .clock {
@@ -87,7 +87,7 @@ system-name {
 }
 
 .aside-sidebar {
-  background-color: rgb(126, 116, 116);
+  background-color: #f8fafc;
   width: 200px;
   max-width: 200px;
   height: 100vh;
@@ -114,26 +114,31 @@ system-name {
 .lista-configuracoes,
 .lista-Relatorio {
   margin-top: 10px;
-  background-color: #374151;
+  background-color: #1d4ed8;
   padding: 10px;
-  color: #f5f6fa;
+  color: #ffffff;
   border-radius: 10px;
   max-width: 200px;
 }
 
+#bem-vindo {
+  font-weight: bold;
+}
+
 .main-container {
-  background: #787b85;
+  background: #f8fafc;
   flex: 1;
   align-items: center;
   text-align: center;
   padding-top: 30px;
   align-items: center;
   text-align: center;
+  color: #5d89e7;
 }
 
 .layout {
   display: flex;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .atualizacoes {
@@ -144,17 +149,22 @@ system-name {
 }
 
 .cards-container {
-  background-color: rgb(192, 192, 192);
+  background-color: rgb(255, 255, 255);
   width: 200px;
   height: 300px;
   border-radius: 25px;
-  margin-left: 100px;
-  border: 1px, solid, black;
+  margin: auto;
+  border: 2px, solid, black;
   margin-top: 20px;
-  align-items: center;
 }
 
 .layout-container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress {
+  margin-top: 20px;
 }
