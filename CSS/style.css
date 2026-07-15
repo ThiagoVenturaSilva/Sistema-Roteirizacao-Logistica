@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-  height: 70px;
+  height: 90px;
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
@@ -35,6 +35,7 @@ body {
   font-size: 42px;
   color: #1d4ed8;
   font-weight: 700;
+  margin-top: 10px;
 }
 
 .user-container {
@@ -107,25 +108,22 @@ body {
   padding: 10px;
 }
 
-.lista-home,
-.lista-dashboard,
-.lista-exportar,
-.lista-importar,
-.lista-configuracoes,
-.lista-Relatorio {
+.button-side {
   margin-top: 10px;
   background-color: #1d4ed8;
   padding: 10px;
+  width: 150px;
   color: #ffffff;
   border-radius: 10px;
   max-width: 200px;
+  text-align: left;
 }
 
 #bem-vindo {
   font-weight: bold;
 }
 
-.main-container {
+#main_container {
   background: #f8fafc;
   flex: 1;
   align-items: center;
